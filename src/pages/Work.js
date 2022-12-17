@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import Accordion from "../components/ui/Accordion";
 
 import "./MainPages.css";
 function Work() {
