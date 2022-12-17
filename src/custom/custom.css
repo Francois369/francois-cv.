@@ -1,0 +1,15 @@
+:root {
+  --warning-color: #ffc107;
+  --secondary-color: #6c757d;
+}
+.list-group-item:hover {
+  background-color: var(--warning-color);
+}
+
+.list-group-item {
+  background-color: var(--secondary-color);
+}
+
+body {
+  background-color: rgb(136, 136, 136);
+}
