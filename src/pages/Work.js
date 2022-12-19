@@ -9,6 +9,7 @@ function Work() {
         <span className="badge badge-pill">Work</span>
       </h1>
       <Accordion></Accordion>
+      <Accordion></Accordion>
     </Fragment>
   );
 }

@@ -1,4 +1,5 @@
 .accordion-header {
+  margin-top: 2px;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -7,6 +8,7 @@
 }
 
 .accordion-header-expanded {
+  margin-top: 2px;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -21,7 +23,7 @@
 }
 
 .icon {
-  color: red;
+  color: var(--warning-color);
 }
 
 .accordion-body {
