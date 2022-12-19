@@ -6,7 +6,7 @@ import { Container } from "react-bootstrap";
 import { Row } from "react-bootstrap";
 import { Col } from "react-bootstrap";
 
-const Accordion = () => {
+const Accordion = (props) => {
   const [expanded, setExpanded] = useState("");
 
   function iconClickHandler(event) {
@@ -23,15 +23,15 @@ const Accordion = () => {
       <div className={classes[`accordion-header${expanded}`]}>
         <Container>
           <Row>
-            <Col xs={5}>
+            <Col xs={3}>
               <h4 className={classes["accordion-header-heading"]}>
-                2022-01 - 2022-08
+                {`${props.data.DateFrom} to ${props.data.DateTo} `}
               </h4>
             </Col>
 
-            <Col xs={5}>
+            <Col xs={7}>
               <h4 className={classes["accordion-header-heading"]}>
-                XFour Solutions
+                {`${props.data.Employer}`}
               </h4>
             </Col>
 
@@ -44,12 +44,16 @@ const Accordion = () => {
           </Row>
         </Container>
       </div>
+
       <Container>
         <Row>
           <Col>
             <div className={classes[`accordion-body${expanded}`]}>
               <p className={classes[`accordion-body-paragraph${expanded}`]}>
-                {`${expanded}`}
+                {props.data.OverviewIntro}
+                {"\n"}
+                {"\n"}
+                {props.data.OverviewIntro}
               </p>
             </div>
           </Col>

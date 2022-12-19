@@ -24,15 +24,15 @@
 
 .icon {
   color: var(--warning-color);
-  height: 20px;
-  width: 20px;
+  height: 30px;
+  width: 30px;
 }
 
 .icon-expanded {
   color: var(--warning-color);
   transform: rotate(180deg);
-  height: 20px;
-  width: 20px;
+  height: 30px;
+  width: 30px;
 }
 
 .accordion-body {
@@ -58,6 +58,7 @@
   border-left: 2px double var(--secondary-color);
   border-right: 2px double var(--secondary-color);
   margin-bottom: 5px;
+  white-space: pre;
 }
 
 .accordion-body-paragraph-expanded {
