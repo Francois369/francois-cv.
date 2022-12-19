@@ -1,5 +1,5 @@
 .accordion-header {
-  margin-top: 2px;
+  margin-top: 5px;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -38,19 +38,28 @@
 .accordion-body {
   overflow: hidden;
   display: none;
-  background-color: blue;
+  background-color: var(--secondary-light);
+  border-bottom: 2px;
+  border-color: var(--warning-color);
 }
 
 .accordion-body-paragraph {
   overflow: hidden;
   display: none;
-  color: red;
+  color: white;
 }
 
 .accordion-body-expanded {
-  background-color: red;
+  background-color: var(--secondary-light);
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-bottom: 2px double var(--secondary-color);
+  border-left: 2px double var(--secondary-color);
+  border-right: 2px double var(--secondary-color);
+  margin-bottom: 5px;
 }
 
 .accordion-body-paragraph-expanded {
-  color: blue;
+  color: white;
 }

@@ -23,19 +23,19 @@ const Accordion = () => {
       <div className={classes[`accordion-header${expanded}`]}>
         <Container>
           <Row>
-            <Col>
+            <Col xs={5}>
               <h4 className={classes["accordion-header-heading"]}>
                 2022-01 - 2022-08
               </h4>
             </Col>
 
-            <Col>
+            <Col xs={5}>
               <h4 className={classes["accordion-header-heading"]}>
                 XFour Solutions
               </h4>
             </Col>
 
-            <Col>
+            <Col xs={1}>
               <FaAngleDown
                 onClick={iconClickHandler}
                 className={classes[`icon${expanded}`]}
