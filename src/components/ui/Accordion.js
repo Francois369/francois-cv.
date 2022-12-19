@@ -1,29 +1,53 @@
-import React from "react";
+import React, { useState } from "react";
 import { Fragment } from "react";
 import classes from "./Accordion.module.css";
-import { FaBeer } from "react-icons/fa";
+import { FaAngleDown } from "react-icons/fa";
 import { Container } from "react-bootstrap";
 import { Row } from "react-bootstrap";
 import { Col } from "react-bootstrap";
+
 const Accordion = () => {
+  const [expanded, setExpanded] = useState("");
+
+  function iconClickHandler(event) {
+    console.log(event);
+    if (expanded == "-expanded") {
+      setExpanded("");
+    } else {
+      setExpanded("-expanded");
+    }
+  }
+
   return (
     <Fragment>
-      <div className={classes["accordion-header"]}>
+      <div className={classes[`accordion-header${expanded}`]}>
         <Container>
           <Row>
             <Col>
-              <h1 className={classes["accordion-header-heading"]}>
-                Test Heading
-              </h1>{" "}
+              <h4 className={classes["accordion-header-heading"]}>
+                2022-01 - 2022-08
+              </h4>
             </Col>
+
             <Col>
-              <FaBeer className={classes["icon"]}></FaBeer>
+              <h4 className={classes["accordion-header-heading"]}>
+                XFour Solutions
+              </h4>
+            </Col>
+
+            <Col>
+              <FaAngleDown
+                onClick={iconClickHandler}
+                className={classes["icon"]}
+              ></FaAngleDown>
             </Col>
           </Row>
         </Container>
       </div>
-      <div className={classes["accordion-body"]}>
-        <p>This is a test Paragraph</p>
+      <div className={classes[`accordion-body${expanded}`]}>
+        <p className={classes[`accordion-body-paragraph${expanded}`]}>
+          {`${expanded}`}
+        </p>
       </div>
     </Fragment>
   );

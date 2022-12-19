@@ -2,16 +2,15 @@
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  border-radius: 25px;
+  border-radius: 12px;
   background: var(--secondary-color);
 }
 
-.accordion-header-expand {
+.accordion-header-expanded {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  border-radius: 25px;
-  border: 2px ridge var(--warning-color);
+  border-radius: 12px;
   background: var(--secondary-color);
 }
 
@@ -23,4 +22,24 @@
 
 .icon {
   color: red;
+}
+
+.accordion-body {
+  overflow: hidden;
+  display: none;
+  background-color: blue;
+}
+
+.accordion-body-paragraph {
+  overflow: hidden;
+  display: none;
+  color: red;
+}
+
+.accordion-body-expanded {
+  background-color: red;
+}
+
+.accordion-body-paragraph-expanded {
+  color: blue;
 }
