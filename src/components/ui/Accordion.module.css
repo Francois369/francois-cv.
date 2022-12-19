@@ -24,6 +24,15 @@
 
 .icon {
   color: var(--warning-color);
+  height: 20px;
+  width: 20px;
+}
+
+.icon-expanded {
+  color: var(--warning-color);
+  transform: rotate(180deg);
+  height: 20px;
+  width: 20px;
 }
 
 .accordion-body {

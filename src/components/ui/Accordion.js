@@ -38,17 +38,23 @@ const Accordion = () => {
             <Col>
               <FaAngleDown
                 onClick={iconClickHandler}
-                className={classes["icon"]}
+                className={classes[`icon${expanded}`]}
               ></FaAngleDown>
             </Col>
           </Row>
         </Container>
       </div>
-      <div className={classes[`accordion-body${expanded}`]}>
-        <p className={classes[`accordion-body-paragraph${expanded}`]}>
-          {`${expanded}`}
-        </p>
-      </div>
+      <Container>
+        <Row>
+          <Col>
+            <div className={classes[`accordion-body${expanded}`]}>
+              <p className={classes[`accordion-body-paragraph${expanded}`]}>
+                {`${expanded}`}
+              </p>
+            </div>
+          </Col>
+        </Row>
+      </Container>
     </Fragment>
   );
 };
