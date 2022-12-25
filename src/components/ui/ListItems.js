@@ -1,6 +1,4 @@
-import "../../custom/custom.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-
+import classes from "../../custom/custom.module.css";
 import { useRef } from "react";
 import { useHistory } from "react-router-dom";
 
@@ -13,13 +11,13 @@ function ListItems(props) {
   }
 
   return (
-    <ul className="list-group">
+    <ul className={classes["my-ul"]}>
       {props.data.map((item) => (
         <li
+          className={classes["my-li"]}
           id={item.Id}
           key={item.Id}
           onClick={liClickHandler}
-          className="list-group-item text-white"
         >
           {item.Description}
         </li>
