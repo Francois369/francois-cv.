@@ -6,7 +6,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import { Switch } from "react-router-dom";
 import { Fragment } from "react";
 import About from "../../pages/About";
-import ListItems from "./ListItems";
+import LeftList from "./LeftList/LeftList.js";
 import LIST_MAINMENU from "../../data/LIST_MAINMENU.json";
 import Contact from "../../pages/Contact";
 import Education from "../../pages/Education";
@@ -16,33 +16,33 @@ function HomeNavigation() {
   // console.log(LIST_MAINMENU);
   return (
     <BrowserRouter>
-      <Container fluid>
-        <Row>
-          <Col xs={3}>
-            <ListItems data={LIST_MAINMENU}></ListItems>
-          </Col>
+      {/* <Container fluid>
+        <Row> */}
+      {/* <Col xs={3}> */}
+      <LeftList data={LIST_MAINMENU}></LeftList>
+      {/* </Col> */}
 
-          <Col>
-            <Switch>
-              <Route path="/About">
-                <About></About>
-              </Route>
-              <Route path="/Contact" exact>
-                <Contact></Contact>
-              </Route>
-              <Route path="/Education" exact>
-                <Education></Education>
-              </Route>
-              <Route path="/Work" exact>
-                <Work></Work>
-              </Route>
-              <Route path="/" exact>
-                <Fragment></Fragment>
-              </Route>
-            </Switch>
-          </Col>
+      {/* <Col> */}
+      <Switch>
+        <Route path="/About">
+          <About></About>
+        </Route>
+        <Route path="/Contact" exact>
+          <Contact></Contact>
+        </Route>
+        <Route path="/Education" exact>
+          <Education></Education>
+        </Route>
+        <Route path="/Work" exact>
+          <Work></Work>
+        </Route>
+        <Route path="/" exact>
+          <Fragment></Fragment>
+        </Route>
+      </Switch>
+      {/* </Col>
         </Row>
-      </Container>
+      </Container> */}
     </BrowserRouter>
   );
 }

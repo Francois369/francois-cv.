@@ -22,10 +22,21 @@ body {
   font-family: var(--my-font-primary);
 }
 
-.my-ul {
+/* .my-div-ul {
   font-family: Arial, Helvetica, sans-serif;
+} */
+
+.my-div-li {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 120px;
+  height: 120px;
+  border: 20px solid #969696;
+  background: #d9dbda;
+  margin: 10px;
 }
 
-.my-li {
+.my-div-ul-p {
   font-family: Arial, Helvetica, sans-serif;
 }
