@@ -16,33 +16,33 @@ function HomeNavigation() {
   // console.log(LIST_MAINMENU);
   return (
     <BrowserRouter>
-      {/* <Container fluid>
-        <Row> */}
-      {/* <Col xs={3}> */}
-      <LeftList data={LIST_MAINMENU}></LeftList>
-      {/* </Col> */}
+      <Container fluid>
+        <Row>
+          <Col xs={3}>
+            <LeftList data={LIST_MAINMENU}></LeftList>
+          </Col>
 
-      {/* <Col> */}
-      <Switch>
-        <Route path="/About">
-          <About></About>
-        </Route>
-        <Route path="/Contact" exact>
-          <Contact></Contact>
-        </Route>
-        <Route path="/Education" exact>
-          <Education></Education>
-        </Route>
-        <Route path="/Work" exact>
-          <Work></Work>
-        </Route>
-        <Route path="/" exact>
-          <Fragment></Fragment>
-        </Route>
-      </Switch>
-      {/* </Col>
+          <Col>
+            <Switch>
+              <Route path="/About">
+                <About></About>
+              </Route>
+              <Route path="/Contact" exact>
+                <Contact></Contact>
+              </Route>
+              <Route path="/Education" exact>
+                <Education></Education>
+              </Route>
+              <Route path="/Work" exact>
+                <Work></Work>
+              </Route>
+              <Route path="/" exact>
+                <Fragment></Fragment>
+              </Route>
+            </Switch>
+          </Col>
         </Row>
-      </Container> */}
+      </Container>
     </BrowserRouter>
   );
 }

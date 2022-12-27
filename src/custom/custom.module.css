@@ -1,7 +1,8 @@
 :root {
   --warning-color: #ffc107;
   --secondary-color: #6c757d;
-  --secondary-light: #798189bf;
+  --secondary-light: #45484abf;
+  --secondary-drk: #484c4f;
   --my-font-color-primary: whitesmoke;
   --my-font-primary: "" Lucida Console ", " Courier New ", monospace;";
 }
@@ -20,23 +21,4 @@ body {
 .my-paragraph {
   color: var(--my-font-color-primary);
   font-family: var(--my-font-primary);
-}
-
-/* .my-div-ul {
-  font-family: Arial, Helvetica, sans-serif;
-} */
-
-.my-div-li {
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  width: 120px;
-  height: 120px;
-  border: 20px solid #969696;
-  background: #d9dbda;
-  margin: 10px;
-}
-
-.my-div-ul-p {
-  font-family: Arial, Helvetica, sans-serif;
 }

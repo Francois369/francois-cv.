@@ -1,4 +1,4 @@
-import classes from "../../custom/custom.module.css";
+import classes from "./LeftList.module.css";
 import { useRef } from "react";
 import { useHistory } from "react-router-dom";
 
@@ -13,14 +13,14 @@ function ListItems(props) {
   return (
     <ul className={classes["my-ul"]}>
       {props.data.map((item) => (
-        <li
-          className={classes["my-li"]}
+        <div
+          className={classes["my-LeftList-li"]}
           id={item.Id}
           key={item.Id}
           onClick={liClickHandler}
         >
-          {item.Description}
-        </li>
+          <p className={classes["my-LeftList-p"]}>{item.Description}</p>
+        </div>
       ))}
     </ul>
   );

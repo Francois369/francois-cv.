@@ -1,0 +1,21 @@
+.my-LeftList-li {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-radius: 6px;
+  border: 1px solid var(--secondary-drk);
+  background: 2 var(--secondar-color);
+  margin: 0px;
+  animation: "my-LeftList-Li";
+}
+
+.my-LeftList-p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 10px;
+}
+
+@keyframes my-LeftList-Li {
+  /* from {}
+  to {}
+   */
+}
