@@ -19,7 +19,14 @@ function ListItems(props) {
           key={item.Id}
           onClick={liClickHandler}
         >
-          <p className={classes["my-LeftList-p"]}>{item.Description}</p>
+          <p
+            id={item.Id}
+            key={item.Id}
+            onClick={liClickHandler}
+            className={classes["my-LeftList-p"]}
+          >
+            {item.Description}
+          </p>
         </div>
       ))}
     </ul>

@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import "./MainPages.css";
+import classes from "../custom/custom.module.css";
 
 function Education() {
   return (
@@ -7,7 +7,7 @@ function Education() {
       <h1>
         <span className="badge badge-pill">Education</span>
       </h1>
-      <div class="card">
+      <div className="card">
         <div className="card-body bg-secondary">
           <p className="card-title text-white">Personal</p>
           <p className="card-text text-white">

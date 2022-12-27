@@ -1,12 +1,13 @@
 import { Fragment } from "react";
-import "./MainPages.css";
 import classes from "../custom/custom.module.css";
+
 function About() {
   return (
     <Fragment>
-      <h1>
-        <span className="badge badge-pill">About</span>
-      </h1>
+      <div className={classes["badge"]}>
+        <h1 className={classes["badge-header"]}>About</h1>
+      </div>
+
       <div>
         <div className="card-body bg-secondary">
           <p className={classes["my-paragraph"]}>Personal</p>

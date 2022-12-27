@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import Accordion from "../components/ui/Accordion";
 import WORK_EXPERIENCE from "../data/WORK_EXPERIENCE.json";
 
-import "./MainPages.css";
+import classes from "../custom/custom.module.css";
 
 function Work() {
   return (

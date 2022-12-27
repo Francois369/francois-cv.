@@ -1,4 +1,13 @@
 :root {
+  --first-grey: #dbd8e3;
+  --second-grey: #5c5470;
+  --third-grey: #352f44;
+  --fourth-grey: #2a2438;
+  --first-color: #f5e1da;
+  --second-color: #f1f1f1;
+  --third-color: #40a798;
+  --fourth-color: #476268;
+
   --warning-color: #ffc107;
   --secondary-color: #6c757d;
   --secondary-light: #45484abf;
@@ -21,4 +30,31 @@ body {
 .my-paragraph {
   color: var(--my-font-color-primary);
   font-family: var(--my-font-primary);
+}
+
+.badge {
+  background-color: var(--third-color);
+  overflow: auto;
+  display: inline-block;
+  border-radius: 10px;
+  animation: badgefade 4s;
+}
+
+.badge-header {
+  margin-left: 5px;
+  margin-right: 5px;
+  animation: badgefade 4s;
+  color: var(--first-color);
+}
+
+@keyframes badgefade {
+  from {
+    background-color: var(--second-grey);
+    color: var(--second-grey);
+  }
+  to {
+    background-color: var(--third-color);
+
+    color: var(--first-color);
+  }
 }

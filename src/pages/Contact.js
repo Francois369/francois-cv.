@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import "./MainPages.css";
+import classes from "../custom/custom.module.css";
 
 function Contact() {
   return (

@@ -3,19 +3,49 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   border-radius: 6px;
-  border: 1px solid var(--secondary-drk);
-  background: 2 var(--secondar-color);
+  border: 1px solid var(--fourth-grey);
+  background: var(--fourth-color);
+  margin: 0px;
+}
+
+.my-LeftList-li:hover {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-radius: 6px;
+  border: 1px solid var(--fourth-color);
+  background: var(--third-color);
   margin: 0px;
   animation: "my-LeftList-Li";
+  animation-duration: 4s;
 }
 
 .my-LeftList-p {
+  color: var(--first-color);
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 10px;
 }
 
-@keyframes my-LeftList-Li {
-  /* from {}
-  to {}
-   */
-}
+/* @keyframes my-LeftList-Li {
+  from {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-radius: 6px;
+    border: 1px solid var(--fourth-grey);
+    background: var(--fourth-color);
+    margin: 0px;
+    animation: "my-LeftList-Li";
+  }
+
+  to {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-radius: 6px;
+    border: 1px solid var(--fourth-grey);
+    background: var(--fourth-color);
+    margin: 0px;
+    animation: "my-LeftList-Li";
+  }
+} */
