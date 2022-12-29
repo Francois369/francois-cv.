@@ -1,48 +1,44 @@
 import { Fragment } from "react";
 import classes from "../custom/custom.module.css";
-
+import Card from "../components/ui/Card/Card";
 function About() {
   return (
     <Fragment>
       <div className={classes["badge"]}>
-        <h1 className={classes["badge-header"]}>About</h1>
+        <h1 className={classes["badge-header"]}>Overview and Objective</h1>
       </div>
+      <Card>
+        <p className={classes["my-paragraph"]}>
+          My name is Francois van der Walt. I am a 34 year old from South
+          Africa. Currently looking to immigrate to Canada (Details of
+          immigration progress in the immigration section).
+        </p>
 
-      <div>
-        <div className="card-body bg-secondary">
-          <p className={classes["my-paragraph"]}>Personal</p>
-          <p className={classes["my-paragraph"]}>
-            I am Francois van der Walt a 34 year old male from South Africa. I
-            am maried and have a young daughter. We are currently in the
-            proscess of moving the Canada. Things are looking good in this
-            regard and most of the tedious paperwork is behind us. More details
-            on this in the imigration section. Other than that I enjoy playing
-            guitar, watching sport mostly Soccer and Rugby.
-          </p>
+        <p className={classes["my-paragraph"]}>
+          I have a bachelor’s degree and Honors in Business (Logistics
+          management) and previous experience in logistics operations
+          management. More recently (5 years) I have been working as a
+          Programmer Analyst on business information systems (Mostly HCM and
+          Payroll Related).
+        </p>
 
-          <p className={classes["my-paragraph"]}>Career overview</p>
-          <p className={classes["my-paragraph"]}>
-            Although my recent current position is Full Stack Developer I have
-            spent the last 5 years working as a Programmer Analyst on business
-            focused software applications. These system centered around mostly
-            HCM and Payroll and at times Acounting and Logistics. Before this I
-            spent time as a Financial Advisor. Prior to this I worked as a
-            Transport Opperations Manager. Before that I obtained a Bachelors of
-            Business and an Honours from the University of Johannesburg.
-          </p>
+        <p className={classes["my-paragraph"]}>
+          Through my career I have found that I take fulfillment from providing
+          solutions to business problems. This is the focus I am looking for in
+          a job. I do love computer programming however what I enjoy more is
+          being involved end to end in the solving of business problems (Even
+          when that might not involve development). More recently I have worked
+          as a full stack developer however if I am honest, it lacks focus on
+          solving business problems. Sometimes you commit your solution and
+          don’t even know if it worked as you are not involved in communicating
+          with the end user. immigration.
+        </p>
 
-          <p className={classes["my-paragraph"]}>Current Career Objective</p>
-          <p className={classes["my-paragraph"]}>
-            Ideally what I am looking for is a Programmer Analyst position. I
-            really enjoy and thrive in the end to end nature of this position.
-            Although I love development I enjoy it more as part of solving a
-            larger business problem or customer needs. My Hopeis to obtain an
-            employment offer on a work permit as this will help expediate my
-            existing immigration efforts. More on imigration in the section on
-            immigration.
-          </p>
-        </div>
-      </div>
+        <p className={classes["my-paragraph"]}>
+          The positions I am looking for would be Programmer Analyst, Software
+          consultant and Business Analyst.
+        </p>
+      </Card>
     </Fragment>
   );
 }

@@ -1,0 +1,5 @@
+.my-card-div {
+  background-color: var(--fourth-color);
+  padding: 20px;
+  border-radius: 15px;
+}

@@ -28,6 +28,7 @@ body {
 }
 
 .my-paragraph {
+  line-height: 1.8;
   color: var(--my-font-color-primary);
   font-family: var(--my-font-primary);
 }
