@@ -4,7 +4,7 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   border-radius: 12px;
-  background: var(--secondary-color);
+  background: var(--fourth-color);
 }
 
 .accordion-header-expanded {
@@ -13,26 +13,27 @@
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   border-radius: 12px;
-  background: var(--secondary-color);
+  background: var(--fourth-color);
 }
 
 .accordion-header-heading {
-  color: white;
+  color: var(--first-color);
   padding: 5px;
   padding-left: 20px;
+  font-family: var(--my-font-primary);
 }
 
-.icon {
-  color: var(--warning-color);
-  height: 30px;
-  width: 30px;
+.accordion-icon {
+  color: var(--third-color);
+  height: 50px;
+  width: 50px;
 }
 
-.icon-expanded {
-  color: var(--warning-color);
+.accordion-icon-expanded {
+  color: var(--third-color);
   transform: rotate(180deg);
-  height: 30px;
-  width: 30px;
+  height: 50px;
+  width: 50px;
 }
 
 .accordion-body {
@@ -43,24 +44,33 @@
   border-color: var(--warning-color);
 }
 
-.accordion-body-paragraph {
-  overflow: hidden;
+.accordion-paragraph {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  color: var(--first-color);
+  font-family: var(--my-font-primary);
   display: none;
-  color: white;
+}
+
+.accordion-paragraph-expanded {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  color: var(--first-color);
+  font-family: var(--my-font-primary);
 }
 
 .accordion-body-expanded {
-  background-color: var(--secondary-light);
+  background-color: var(--third-color);
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  border-bottom: 2px double var(--secondary-color);
-  border-left: 2px double var(--secondary-color);
-  border-right: 2px double var(--secondary-color);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  /* border-bottom: 2px solid var(--fourth-color);
+  border-left: 2px solid var(--fourth-color);
+  border-right: 2px solid var(--fourth-color); */
   margin-bottom: 5px;
   white-space: pre;
-}
-
-.accordion-body-paragraph-expanded {
-  color: white;
 }

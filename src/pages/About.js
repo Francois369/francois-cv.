@@ -1,12 +1,12 @@
 import { Fragment } from "react";
 import classes from "../custom/custom.module.css";
 import Card from "../components/ui/Card/Card";
+import Badge from "../components/ui/Badge/Badge";
+
 function About() {
   return (
     <Fragment>
-      <div className={classes["badge"]}>
-        <h1 className={classes["badge-header"]}>Overview and Objective</h1>
-      </div>
+      <Badge>About</Badge>
       <Card>
         <p className={classes["my-paragraph"]}>
           My name is Francois van der Walt. I am a 34 year old from South

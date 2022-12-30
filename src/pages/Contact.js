@@ -1,12 +1,10 @@
 import { Fragment } from "react";
 import classes from "../custom/custom.module.css";
-
+import Badge from "../components/ui/Badge/Badge";
 function Contact() {
   return (
     <Fragment>
-      <h1>
-        <span className="badge badge-pill">Contact Details</span>
-      </h1>
+      <Badge>Contact</Badge>
       <div className="card">
         <div className="card-body bg-secondary border border-0">
           <p className="card-title text-white">Personal</p>

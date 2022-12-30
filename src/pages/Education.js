@@ -1,12 +1,10 @@
 import { Fragment } from "react";
 import classes from "../custom/custom.module.css";
-
+import Badge from "../components/ui/Badge/Badge";
 function Education() {
   return (
     <Fragment>
-      <h1>
-        <span className="badge badge-pill">Education</span>
-      </h1>
+      <Badge>Education</Badge>
       <div className="card">
         <div className="card-body bg-secondary">
           <p className="card-title text-white">Personal</p>

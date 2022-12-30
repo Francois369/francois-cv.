@@ -33,22 +33,7 @@ body {
   font-family: var(--my-font-primary);
 }
 
-.badge {
-  background-color: var(--third-color);
-  overflow: auto;
-  display: inline-block;
-  border-radius: 10px;
-  animation: badgefade 4s;
-}
-
-.badge-header {
-  margin-left: 5px;
-  margin-right: 5px;
-  animation: badgefade 4s;
-  color: var(--first-color);
-}
-
-@keyframes badgefade {
+/* @keyframes badgefade {
   from {
     background-color: var(--second-grey);
     color: var(--second-grey);
@@ -58,4 +43,4 @@ body {
 
     color: var(--first-color);
   }
-}
+} */

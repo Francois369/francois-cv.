@@ -11,7 +11,7 @@ const Accordion = (props) => {
 
   function iconClickHandler(event) {
     console.log(event);
-    if (expanded == "-expanded") {
+    if (expanded === "-expanded") {
       setExpanded("");
     } else {
       setExpanded("-expanded");
@@ -38,7 +38,7 @@ const Accordion = (props) => {
             <Col xs={1}>
               <FaAngleDown
                 onClick={iconClickHandler}
-                className={classes[`icon${expanded}`]}
+                className={classes[`accordion-icon${expanded}`]}
               ></FaAngleDown>
             </Col>
           </Row>
@@ -49,12 +49,7 @@ const Accordion = (props) => {
         <Row>
           <Col>
             <div className={classes[`accordion-body${expanded}`]}>
-              <p className={classes[`accordion-body-paragraph${expanded}`]}>
-                {props.data.OverviewIntro}
-                {"\n"}
-                {"\n"}
-                {props.data.OverviewIntro}
-              </p>
+              <p className={classes[`accordion-paragraph${expanded}`]}>Hello</p>
             </div>
           </Col>
         </Row>
