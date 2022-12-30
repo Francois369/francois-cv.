@@ -49,7 +49,9 @@ const Accordion = (props) => {
         <Row>
           <Col>
             <div className={classes[`accordion-body${expanded}`]}>
-              <p className={classes[`accordion-paragraph${expanded}`]}>Hello</p>
+              <p className={classes[`accordion-paragraph${expanded}`]}>
+                {props.data.Content}
+              </p>
             </div>
           </Col>
         </Row>
