@@ -28,10 +28,10 @@ function About() {
           a job. I do love computer programming however what I enjoy more is
           being involved end to end in the solving of business problems (Even
           when that might not involve development). More recently I have worked
-          as a full stack developer however if I am honest, it lacks focus on
-          solving business problems. Sometimes you commit your solution and
-          don’t even know if it worked as you are not involved in communicating
-          with the end user. immigration.
+          as a full stack developer however if I am honest, it sometimes lacks
+          focus on solving business problems. Sometimes you commit your solution
+          and don’t even know if it worked as you are not involved in
+          communicating with the end user. immigration.
         </p>
 
         <p className={classes["my-paragraph"]}>

@@ -5,10 +5,14 @@
   --fourth-grey: #2a2438;
   --first-color: #f5e1da;
   --second-color: #f1f1f1;
-  --third-color: #40a798;
-  --fourth-color: #476268;
+  /* --third-color: #40a798; */
+  --third-color: #ffc107;
 
-  --warning-color: #ffc107;
+  --fourth-color: #5a5954;
+  --fourth-color-light: #888780;
+  /* --fourth-color: #476268; */
+  color: rgb;
+  --warning-color: ;
   --secondary-color: #6c757d;
   --secondary-light: #45484abf;
   --secondary-drk: #484c4f;
@@ -24,13 +28,17 @@
 }
 
 body {
-  background-color: rgb(136, 136, 136);
+  background-color: #727271;
 }
 
 .my-paragraph {
   line-height: 1.8;
-  color: var(--my-font-color-primary);
+  color: var(--first-color);
   font-family: var(--my-font-primary);
+}
+
+.contact-icon {
+  color: var(--third-color);
 }
 
 /* @keyframes badgefade {

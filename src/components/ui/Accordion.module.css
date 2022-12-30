@@ -41,13 +41,14 @@
 }
 
 .accordion-body-expanded {
-  background-color: var(--fourth-color);
-  opacity: 0.8;
+  background-color: var(--fourth-color-light);
+  opacity: 1;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+  padding-bottom: 10px;
   /* border-bottom: 2px solid var(--fourth-color);
   border-left: 2px solid var(--fourth-color);
   border-right: 2px solid var(--fourth-color); */
@@ -86,4 +87,8 @@
   /* line-height: 1.8; */
   color: var(--first-color);
   font-family: var(--my-font-primary);
+}
+
+.react-icon {
+  color: var(--third-color);
 }

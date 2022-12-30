@@ -10,7 +10,7 @@
   margin-left: 5px;
   margin-right: 5px;
   animation: badgefade 4s;
-  color: var(--first-color);
+  color: var(--second-color);
   font-family: var(--my-font-primary);
 }
 

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Fragment } from "react";
 import classes from "./Accordion.module.css";
 import { FaAngleDown } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
 import { Container } from "react-bootstrap";
 import { Row } from "react-bootstrap";
 import { Col } from "react-bootstrap";
@@ -19,7 +20,10 @@ const Accordion = (props) => {
   }
 
   const listItems = props.data.List.map((item) => (
-    <p className={classes["accordion-li-p"]}>{item}</p>
+    <p className={classes["accordion-li-p"]}>
+      <FaReact className={classes["react-icon"]} />
+      {item}
+    </p>
   ));
 
   return (
@@ -30,7 +34,7 @@ const Accordion = (props) => {
             <Col xs={3}>
               <p
                 className={classes["DateStamp-paragraph"]}
-              >{`${props.data.DateFromMonth} ${props.data.DateFromYear} to ${props.data.DateToMonth} ${props.data.DateFromYear} `}</p>
+              >{`${props.data.DateFromMonth} ${props.data.DateFromYear} to ${props.data.DateToMonth} ${props.data.DateToYear} `}</p>
             </Col>
 
             <Col xs={7}>
