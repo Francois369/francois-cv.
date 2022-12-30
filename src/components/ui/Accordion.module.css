@@ -41,7 +41,8 @@
 }
 
 .accordion-body-expanded {
-  background-color: var(--third-color);
+  background-color: var(--fourth-color);
+  opacity: 0.8;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -65,6 +66,24 @@
   margin-bottom: 10px;
   line-break: auto;
   white-space: normal;
+  /* line-height: 1.8; */
+  color: var(--first-color);
+  font-family: var(--my-font-primary);
+}
+
+.DateStamp-paragraph {
+  vertical-align: middle;
+  color: var(--first-color);
+  font-family: var(--my-font-primary);
+}
+
+.accordion-li-p {
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  line-break: auto;
+  white-space: normal;
+  /* line-height: 1.8; */
   color: var(--first-color);
   font-family: var(--my-font-primary);
 }

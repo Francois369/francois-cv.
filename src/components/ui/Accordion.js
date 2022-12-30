@@ -18,15 +18,19 @@ const Accordion = (props) => {
     }
   }
 
+  const listItems = props.data.List.map((item) => (
+    <p className={classes["accordion-li-p"]}>{item}</p>
+  ));
+
   return (
     <Fragment>
       <div className={classes[`accordion-header${expanded}`]}>
         <Container>
           <Row>
             <Col xs={3}>
-              <h4 className={classes["accordion-header-heading"]}>
-                {`${props.data.DateFrom} to ${props.data.DateTo} `}
-              </h4>
+              <p
+                className={classes["DateStamp-paragraph"]}
+              >{`${props.data.DateFromMonth} ${props.data.DateFromYear} to ${props.data.DateToMonth} ${props.data.DateFromYear} `}</p>
             </Col>
 
             <Col xs={7}>
@@ -50,8 +54,9 @@ const Accordion = (props) => {
           <Col>
             <div className={classes[`accordion-body${expanded}`]}>
               <p className={classes[`accordion-paragraph${expanded}`]}>
-                {props.data.Content}
+                {props.data.Paragraph}
               </p>
+              {listItems}
             </div>
           </Col>
         </Row>

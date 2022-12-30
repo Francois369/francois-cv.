@@ -11,8 +11,6 @@ function Work() {
       {WORK_EXPERIENCE.map((item) => (
         <Accordion data={item}></Accordion>
       ))}
-      {/* <Accordion></Accordion>
-      <Accordion></Accordion> */}
     </Fragment>
   );
 }
