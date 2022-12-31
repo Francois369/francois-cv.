@@ -35,6 +35,13 @@ body {
   line-height: 1.8;
   color: var(--first-color);
   font-family: var(--my-font-primary);
+  /* font-style: italic; */
+}
+
+.my-headings {
+  color: var(--first-color);
+  font-family: var(--my-font-primary);
+  /* font-style: italic; */
 }
 
 /* @keyframes badgefade {
