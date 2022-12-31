@@ -1,0 +1,15 @@
+.email-a {
+  /* content: "\a";
+  white-space: pre; */
+  font-family: var(---my-font-primary);
+  color: var(--my-font-color-primary);
+}
+
+.phone-p {
+  font-family: var(---my-font-primary);
+  color: var(--my-font-color-primary);
+}
+
+.contact-icon {
+  color: var(--third-color);
+}

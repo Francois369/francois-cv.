@@ -1,46 +1,38 @@
 import { Fragment } from "react";
 import classes from "../custom/custom.module.css";
 import Badge from "../components/ui/Badge/Badge";
+import Card from "../components/ui/Card/Card.js";
 function Education() {
   return (
     <Fragment>
       <Badge>Education</Badge>
-      <div className="card">
-        <div className="card-body bg-secondary">
-          <p className="card-title text-white">Personal</p>
-          <p className="card-text text-white">
-            This is a generic test Paragrap to test layouts. I am a 34 year Old
-            male with brown hair 5'11. I love development and truly enjoy it.
-            Through multiple roles in the field however I have found I truly
-            enjoy the problem solving nature of it. I realised what me appart is
-            my abality knowledge and abality for business proscesses. I am not
-            sure if it is brought on by varied nature of previous work
-            experience or perhaps through my business qualifications.
-          </p>
+      <Card>
+        <h6>
+          <b>Bachelors of commerce Logistics Management</b> <br /> 2007 - 2009
+          <br />
+          University of Johannesburg
+        </h6>
+        <p>
+          <b>Major Subjects:</b> Logistics Management and Marketing Management.
+          <br />
+          <b>Other Subjects:</b> Transport Economics, Accounting, Business
+          Management
+        </p>
+      </Card>
 
-          <p className="card-title text-white">Career overview</p>
-          <p className="card-text text-white">
-            This is a generic test Paragrap to test layouts. I am a 34 year Old
-            male with brown hair 5'11. I love development and truly enjoy it.
-            Through multiple roles in the field however I have found I truly
-            enjoy the problem solving nature of it. I realised what me appart is
-            my abality knowledge and abality for business proscesses. I am not
-            sure if it is brought on by varied nature of previous work
-            experience or perhaps through my business qualifications.
-          </p>
-
-          <p className="card-title text-white">Objective</p>
-          <p className="card-text text-white">
-            This is a generic test Paragrap to test layouts. I am a 34 year Old
-            male with brown hair 5'11. I love development and truly enjoy it.
-            Through multiple roles in the field however I have found I truly
-            enjoy the problem solving nature of it. I realised what me appart is
-            my abality knowledge and abality for business proscesses. I am not
-            sure if it is brought on by varied nature of previous work
-            experience or perhaps through my business qualifications.
-          </p>
-        </div>
-      </div>
+      <Card>
+        <h6>
+          <b>Bachelors of commerce Logistics Management</b> <br /> 2007 - 2009
+          <br />
+          University of Johannesburg
+        </h6>
+        <p>
+          <b>Major Subjects:</b> Logistics Management and Marketing Management.
+          <br />
+          <b>Other Subjects:</b> Transport Economics, Accounting, Business
+          Management
+        </p>
+      </Card>
     </Fragment>
   );
 }
