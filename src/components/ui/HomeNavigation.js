@@ -12,10 +12,13 @@ import Contact from "../../pages/Contact";
 import Education from "../../pages/Education";
 import Work from "../../pages/Work";
 import Attributes from "../../pages/Attributes";
+import Modal from "./Overlay/Modal";
 function HomeNavigation() {
   // console.log(LIST_MAINMENU);
+
   return (
     <BrowserRouter>
+      <Modal />
       <Container fluid>
         <Row>
           <Col xs={3}>
