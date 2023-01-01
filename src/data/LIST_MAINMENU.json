@@ -2,5 +2,6 @@
   { "Id": "About", "Description": "About" },
   { "Id": "Work", "Description": "Work History" },
   { "Id": "Education", "Description": "Education" },
+  { "Id": "Attributes", "Description": "Attributes and Achievements" },
   { "Id": "Contact", "Description": "Contact" }
 ]

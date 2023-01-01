@@ -11,7 +11,7 @@ import LIST_MAINMENU from "../../data/LIST_MAINMENU.json";
 import Contact from "../../pages/Contact";
 import Education from "../../pages/Education";
 import Work from "../../pages/Work";
-
+import Attributes from "../../pages/Attributes";
 function HomeNavigation() {
   // console.log(LIST_MAINMENU);
   return (
@@ -35,6 +35,9 @@ function HomeNavigation() {
               </Route>
               <Route path="/Work" exact>
                 <Work></Work>
+              </Route>
+              <Route path="/Attributes" exact>
+                <Attributes> </Attributes>
               </Route>
               <Route path="/" exact>
                 <Fragment></Fragment>

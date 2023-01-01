@@ -11,8 +11,8 @@ function Education() {
       <Card>
         <h6 className={classes["my-headings"]}>
           <FaGraduationCap className={styles["education-icon"]} />
-          <b>Bachelors of commerce Honours Logistics Management </b>
-          <br /> 2010
+          <b>Bachelors of commerce Honours - Logistics Management </b>
+          <br /> <i>2010</i>
           <br />
           University of Johannesburg
         </h6>
@@ -25,8 +25,8 @@ function Education() {
         <br />
         <h6 className={classes["my-paragraph"]}>
           <FaGraduationCap className={styles["education-icon"]} />
-          <b>Bachelors of commerce Logistics Management</b>
-          <br /> 2007 - 2009
+          <b>Bachelors of commerce - Logistics Management</b>
+          <br /> <i>2007 - 2009</i>
           <br />
           University of Johannesburg
         </h6>
