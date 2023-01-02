@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 import ReactDOM from "react-dom";
 import Login from "./Login";
 import classes from "./Modal.module.css";
@@ -21,20 +21,23 @@ function ModalOverlay(props) {
 }
 
 function Modal(props) {
+  const [loggedIn, setloggedin] = useState(false);
   const targetPortal = document.getElementById("overlay");
-  return (
-    <Fragment>
-      {props.children}
-      {ReactDOM.createPortal(
-        <Backdrop>
-          <ModalOverlay>
-            <Login />
-          </ModalOverlay>
-        </Backdrop>,
-        targetPortal
-      )}
-    </Fragment>
-  );
+  if (loggedIn === false) {
+    return (
+      <Fragment>
+        {props.children}
+        {ReactDOM.createPortal(
+          <Backdrop>
+            <ModalOverlay>
+              <Login click={setloggedin} />
+            </ModalOverlay>
+          </Backdrop>,
+          targetPortal
+        )}
+      </Fragment>
+    );
+  }
 }
 
 export default Modal;

@@ -1,4 +1,5 @@
 import styles from "./Login.module.css";
+import AuthContext from "../../../store/auth-context";
 import Modal from "./Modal";
 function Login(props) {
   return (

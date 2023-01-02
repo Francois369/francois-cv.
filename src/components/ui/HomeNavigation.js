@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import ReactDOM from "react-dom/client";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -13,12 +14,19 @@ import Education from "../../pages/Education";
 import Work from "../../pages/Work";
 import Attributes from "../../pages/Attributes";
 import Modal from "./Overlay/Modal";
-function HomeNavigation() {
-  // console.log(LIST_MAINMENU);
+import { useContext } from "react";
+import AuthContext from "../../store/auth-context";
 
+function HomeNavigation() {
+  const loggedInCtx = useContext(AuthContext);
+  var returnLoginScreen = "";
+  if (loggedInCtx.isLoggedIn === false) {
+    returnLoginScreen = <Modal></Modal>;
+  }
+  console.log(returnLoginScreen);
   return (
     <BrowserRouter>
-      <Modal />
+      {returnLoginScreen}
       <Container fluid>
         <Row>
           <Col xs={3}>
