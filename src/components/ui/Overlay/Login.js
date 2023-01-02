@@ -1,7 +1,13 @@
 import styles from "./Login.module.css";
+import { useContext } from "react";
 import AuthContext from "../../../store/auth-context";
-import Modal from "./Modal";
+
 function Login(props) {
+  const ctx = useContext(AuthContext);
+
+  function clickHandler() {
+    console.log(ctx);
+  }
   return (
     <div className={styles["login-form"]}>
       <div className={styles["control"]}>
@@ -11,14 +17,14 @@ function Login(props) {
           </i>
         </label>
         <input
-        //   type="text"
-        //   id="ticketNumber"
-        //   name="ticketNumber"
-        //   required
-        //   minLength="4"
-        //   maxLength="20"
-        //   size="20"
-        //   onChange={""}
+          //   type="text"
+          id="userName"
+          //   name="ticketNumber"
+          //   required
+          //   minLength="4"
+          //   maxLength="20"
+          //   size="20"
+          //   onChange={""}
         ></input>
       </div>
       <br />
@@ -30,18 +36,18 @@ function Login(props) {
           </i>
         </label>
         <input
-        //   type="text"
-        //   id="client"
-        //   name="client"
-        //   required
-        //   minLength="4"
-        //   maxLength="20"
-        //   size="20"
-        //   onChange={""}
+          //   type="text"
+          id="password"
+          //   name="client"
+          //   required
+          //   minLength="4"
+          //   maxLength="20"
+          //   size="20"
+          //   onChange={""}
         ></input>
       </div>
       <br />
-      <button>
+      <button onClick={ctx.onLogIn}>
         <strong>Log In</strong>
       </button>
     </div>

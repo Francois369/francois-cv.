@@ -23,7 +23,7 @@ function HomeNavigation() {
   if (loggedInCtx.isLoggedIn === false) {
     returnLoginScreen = <Modal></Modal>;
   }
-  console.log(returnLoginScreen);
+
   return (
     <BrowserRouter>
       {returnLoginScreen}

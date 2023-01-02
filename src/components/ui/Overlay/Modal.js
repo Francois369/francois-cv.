@@ -21,23 +21,21 @@ function ModalOverlay(props) {
 }
 
 function Modal(props) {
-  const [loggedIn, setloggedin] = useState(false);
   const targetPortal = document.getElementById("overlay");
-  if (loggedIn === false) {
-    return (
-      <Fragment>
-        {props.children}
-        {ReactDOM.createPortal(
-          <Backdrop>
-            <ModalOverlay>
-              <Login click={setloggedin} />
-            </ModalOverlay>
-          </Backdrop>,
-          targetPortal
-        )}
-      </Fragment>
-    );
-  }
+
+  return (
+    <Fragment>
+      {props.children}
+      {ReactDOM.createPortal(
+        <Backdrop>
+          <ModalOverlay>
+            <Login />
+          </ModalOverlay>
+        </Backdrop>,
+        targetPortal
+      )}
+    </Fragment>
+  );
 }
 
 export default Modal;
