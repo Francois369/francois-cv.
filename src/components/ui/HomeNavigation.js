@@ -17,6 +17,7 @@ import Modal from "./Overlay/Modal";
 import { useContext } from "react";
 import AuthContext from "../../store/auth-context";
 import TopNav from "./TopNav/TopNav";
+import References from "../../pages/Refrences";
 function HomeNavigation() {
   const loggedInCtx = useContext(AuthContext);
   var returnLoginScreen = "";
@@ -50,6 +51,9 @@ function HomeNavigation() {
               </Route>
               <Route path="/Attributes" exact>
                 <Attributes> </Attributes>
+              </Route>
+              <Route path="/References">
+                <References />
               </Route>
               <Route path="/" exact>
                 <Fragment></Fragment>

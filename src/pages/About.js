@@ -12,7 +12,7 @@ function About() {
           I have a bachelor’s of commerce and honors in Business and previous
           experience in business management. More recently (5 years) I have been
           working as a Programmer Analyst on business information systems
-          (Mostly HCM and Payroll Related).
+          (Mostly Human Resources and Payroll Related).
         </p>
 
         <p className={classes["my-paragraph"]}>

@@ -58,6 +58,11 @@ const Accordion = (props) => {
           <Col>
             <div className={classes[`accordion-body${expanded}`]}>
               <p className={classes[`accordion-paragraph${expanded}`]}>
+                <strong>
+                  <i>{props.data.Position}</i>
+                </strong>
+              </p>
+              <p className={classes[`accordion-paragraph${expanded}`]}>
                 {props.data.Paragraph}
               </p>
               {listItems}
