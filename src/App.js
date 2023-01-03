@@ -16,7 +16,7 @@ function App() {
     ) {
       setIsLoggedIn(true);
     } else {
-      alert("incorrect UsernaME of Password");
+      alert("incorrect Username of Password");
     }
   }
 
