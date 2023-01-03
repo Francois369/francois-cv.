@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import ReactDOM from "react-dom/client";
+
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -16,7 +16,7 @@ import Attributes from "../../pages/Attributes";
 import Modal from "./Overlay/Modal";
 import { useContext } from "react";
 import AuthContext from "../../store/auth-context";
-
+import TopNav from "./TopNav/TopNav";
 function HomeNavigation() {
   const loggedInCtx = useContext(AuthContext);
   var returnLoginScreen = "";
@@ -27,6 +27,7 @@ function HomeNavigation() {
   return (
     <BrowserRouter>
       {returnLoginScreen}
+      <TopNav></TopNav>
       <Container fluid>
         <Row>
           <Col xs={3}>

@@ -1,0 +1,28 @@
+.topnav {
+  background-color: var(--third-color);
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.topnav-heading {
+  font-family: var(--my-font-primary);
+  color: var(--fourth-color-dark);
+  margin-left: 20px;
+  float: left;
+}
+
+.topnav-button {
+  float: right;
+  color: var(--my-font-color-primary);
+  background-color: var(--fourth-color);
+  margin-right: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.topnav-icon {
+  color: var(--third-color);
+}

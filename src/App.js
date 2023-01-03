@@ -15,7 +15,15 @@ function App() {
       document.getElementById("password").value == "good-vibes"
     ) {
       setIsLoggedIn(true);
+    } else {
+      alert("incorrect UsernaME of Password");
     }
+  }
+
+  function logOutHandler() {
+    // localStorage.removeItem("isLoggedIn");
+
+    setIsLoggedIn(false);
   }
 
   return (
@@ -23,6 +31,7 @@ function App() {
       value={{
         isLoggedIn: isLoggedIn,
         onLogIn: logInHandler,
+        onLogOut: logOutHandler,
       }}
     >
       <HomeNavigation />
