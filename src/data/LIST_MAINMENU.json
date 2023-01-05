@@ -4,5 +4,6 @@
   { "Id": "Education", "Description": "Education" },
   { "Id": "Attributes", "Description": "Attributes and Achievements" },
   { "Id": "Contact", "Description": "Contact" },
-  { "Id": "References", "Description": "References" }
+  { "Id": "References", "Description": "References" },
+  { "Id": "Immigration", "Description": "Immigration" }
 ]
