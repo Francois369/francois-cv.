@@ -3,6 +3,7 @@
   { "Id": "Work", "Description": "Work History" },
   { "Id": "Education", "Description": "Education" },
   { "Id": "Attributes", "Description": "Attributes and Achievements" },
+  { "Id": "Skills", "Description": "Skills " },
   { "Id": "Contact", "Description": "Contact" },
   { "Id": "References", "Description": "References" },
   { "Id": "Immigration", "Description": "Immigration" }

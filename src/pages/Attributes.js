@@ -11,6 +11,30 @@ const Attributes = () => {
       <Card>
         <p className={classes["my-paragraph"]}>
           <FaReact className={styles["attribute-icon"]} />
+          <strong> Creative problem solver </strong> <br />
+          Creative in problem solving and coming up with solutions. When I was
+          at university my Logistics Honours class was made up 65 students.
+          Among this crowd I was a middle of the road student and did not boast
+          any sports cultural achievements nor was I member of any student
+          bodies etc. There was a two-week exchange type concept sponsored by
+          USAID. It was part of a larger project between the University of
+          Michigan and the University of Johannesburg. There would be 2 students
+          selected from this honors group two visit the university of Michigan
+          for 2 weeks. I really wanted to go but didn`t think I had much of a
+          chance to be selected from such an Elite group. One night sitting in
+          the Library (I was supposed to be studying) inspiration struck. I
+          realized that most of the people writing the motivational essay and
+          going for the interview would spend all there time talking about how
+          great they were as students or Leaders of student bodies etc. I
+          decided I would say nothing about what qualifies me to go. I would
+          simply write an essay which states how great this opportunity is and
+          about why Michigan would be a very insightful place to visit from a
+          logistics perspective. I ended up getting chosen until this day I am
+          very proud of this and believe were it not for my out of the box
+          thinking I would not have been selected.
+        </p>
+        <p className={classes["my-paragraph"]}>
+          <FaReact className={styles["attribute-icon"]} />
           <strong> People skills</strong>
           <br /> I have an ability to garner trust and respect through honesty
           fairness and respectfulness. When managing my first contract at
@@ -56,33 +80,10 @@ const Attributes = () => {
           for a week). Completed IELTS tests for immigration purposes and my
           scores serve as further proof of this.
         </p>
+
         <p className={classes["my-paragraph"]}>
           <FaReact className={styles["attribute-icon"]} />
-          <strong> Creative problem solver </strong> <br />
-          Creative in problem solving and coming up with solutions. When I was
-          at university my Logistics Honours class was made up 65 students.
-          Among this crowd I was a middle of the road student and did not boast
-          any sports cultural achievements nor was I member of any student
-          bodies etc. There was a two-week exchange type concept sponsored by
-          USAID. It was part of a larger project between the University of
-          Michigan and the University of Johannesburg. There would be 2 students
-          selected from this honors group two visit the university of Michigan
-          for 2 weeks. I really wanted to go but didn`t think I had much of a
-          chance to be selected from such an Elite group. One night sitting in
-          the Library (I was supposed to be studying) inspiration struck. I
-          realized that most of the people writing the motivational essay and
-          going for the interview would spend all there time talking about how
-          great they were as students or Leaders of student bodies etc. I
-          decided I would say nothing about what qualifies me to go. I would
-          simply write an essay which states how great this opportunity is and
-          about why Michigan would be a very insightful place to visit from a
-          logistics perspective. I ended up getting chosen until this day I am
-          very proud of this and believe were it not for my out of the box
-          thinking I would not have been selected.
-        </p>
-        <p className={classes["my-paragraph"]}>
-          <FaReact className={styles["attribute-icon"]} />
-          <strong> Sense of Responsibality and Dilligence </strong> <br />I
+          <strong> Sense of Responsibility and Diligence </strong> <br />I
           believe my success in my career is driven by this more than anything
           else. It can be a double edge sword as taking on to much
           responsibility can be stressful. At the same time success has followed
