@@ -7,14 +7,14 @@ import { FaReact } from "react-icons/fa";
 
 const Skills = () => {
   const skillsself = [
-    "5 years Managment information systems development and maintanance experience",
-    "5 years General Programming experience surounding Management Information Systems.",
-    "5 years experience in Illiciting requirement for System end Users and comuniacting suroudning immplementation and delivery",
-    "5 years experiecne in the project lifecycle of Managment Information Systems",
-    "2 years experience in succsesfully managing business opperations with large staff compliments (Unrelated industry)",
-    "Sql - Extracting data - writing reports - creating tables for custom development - updating of data",
+    "5 years Management information systems experience regarding development and maintenance ",
+    "5 years General Programming experience surrounding Management Information Systems.",
+    "5 years experience in eliciting requirement for System end Users and communicating surrounding implementation and delivery.",
+    "5 years experience in the project lifecycle of Management Information Systems",
+    "2 years experience in successfully managing business operations with large staff compliments (Unrelated industry)",
+    "SQL - Extracting data - writing reports - creating tables for custom development - updating of data",
     "SSRS - SQL Server Reporting Service",
-    "SAP Chrystal Reporting (Prefered over SSRS)",
+    "SAP Chrystal Reporting (Preferred over SSRS)",
     "C#",
     "HTML",
     "CSS",

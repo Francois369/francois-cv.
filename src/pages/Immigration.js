@@ -30,7 +30,7 @@ const Immigration = () => {
           <br />
           Alternative I would also be very willing to come across on a work
           permit in the interim. This method once again I believe should ensure
-          a farts enough turnaround time for any potential employers.
+          a fast enough turnaround time for any potential employers.
           <br />
           <br /> The immigrations office have provided some reference numbers
           below which they state we should use in our efforts to look for work.{" "}
