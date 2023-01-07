@@ -73,7 +73,7 @@ const Attributes = () => {
         </p>
         <p className={classes["my-paragraph"]}>
           <FaReact className={styles["attribute-icon"]} />
-          <strong> Good comunicator</strong>
+          <strong> Good communicator</strong>
           <br />I am fairly well read and travelled and have worked in a
           unusually diverse settings (From working with heads of department at a
           Regulatory body to loading trucks and working as a mechanics assistant

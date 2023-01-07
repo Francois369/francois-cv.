@@ -35,8 +35,8 @@ const Immigration = () => {
           <br /> The immigrations office have provided some reference numbers
           below which they state we should use in our efforts to look for work.{" "}
           <br />
-          a. your Express Entry profile number: E003104119 <br />
-          b. your Job Seeker validation code: 4737
+          a. Express Entry profile number: E003104119 <br />
+          b. Job Seeker validation code: 4737
           <br />
           c. Current CRS Score: 452
         </p>

@@ -19,7 +19,6 @@ const Skills = () => {
     "HTML",
     "CSS",
     "JavaScript",
-    "SQL Server Management Studio",
     ".net Framework",
     ".net Core",
     "Asp.net Webforms",
@@ -28,14 +27,20 @@ const Skills = () => {
     "Visual Studio 2022 and 2019",
     "Visual Studio Code",
   ];
+
+  const renderList = skillsself.map((item) => (
+    <p className={classes["my-paragraph"]}>
+      <FaReact className={styles["skills-icon"]} />
+      &emsp;
+      {item}
+    </p>
+  ));
+
+  console.log(renderList);
   return (
     <Fragment>
       <Badge>Skills</Badge>
-      <Card>
-        <p className={classes["my-paragraph"]}>
-          <FaReact className={styles["skills-icon"]}></FaReact> This is skills
-        </p>
-      </Card>
+      <Card>{renderList}</Card>
     </Fragment>
   );
 };
