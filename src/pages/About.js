@@ -9,22 +9,24 @@ function About() {
       <Badge>About</Badge>
       <Card>
         <p className={classes["my-paragraph"]}>
-          I have a bachelor’s of commerce and honors in Business and previous
-          experience in business management. More recently (5 years) I have been
-          working as a Programmer Analyst on business information systems
-          (Mostly Human Resources and Payroll Related).
+          My name is Francois van der Walt I am 34 years old. I posses a
+          business degree and have previous management experience. However more
+          recently (5 year) I have found where my passion lies. This is in the
+          problem-solving nature of the environment surrounding Management
+          Information systems. I have worked most of the last 5 years as a
+          Analyst and currently as a full stack developer.
         </p>
 
         <p className={classes["my-paragraph"]}>
-          I am a dilligent worker who posesses a good balance of problem solving
+          I am a diligent worker who possesses a good balance of problem solving
           and people skills. I believe some of the achievements listed in the
-          Attributes and Achievements section and my refrences would be able to
-          attest to that. Due to my work over the last 5 years I aslo posses
-          good programming skills and knowledge of business systems.
+          Attributes and Achievements section and my references would be able to
+          attest to that. Due to my work over the last 5 years I also possess
+          rich Systems, programming and report writing experience.
         </p>
 
         <p className={classes["my-paragraph"]}>
-          Through my career I have found that I take fulfillment from providing
+          Through my career I have found that I take fulfilment from providing
           solutions to business problems. This is the focus I am looking for in
           a job. I do love computer programming however what I enjoy more is
           being involved end to end in the solving of business problems (Even
@@ -32,12 +34,12 @@ function About() {
         </p>
 
         <p className={classes["my-paragraph"]}>
-          The positions I am looking for would be Programmer Analyst, Software
-          consultant or Business Analyst.
+          The positions I am looking for would be Programmer Analyst,
+          Applications Programmer, Functional Consultant and Business analyst.
         </p>
 
         <p className={classes["my-paragraph"]}>
-          I am a South African currently in the proscess of immigrating to
+          I am a South African currently in the process of immigrating to
           Canada. (Details of immigration progress in the immigration section).
         </p>
       </Card>

@@ -1,9 +1,25 @@
 [
   {
+    "Employer": "SCubed",
+    "Position": "Full Stack Developer",
+    "Description": "",
+    "Paragraph": "SCUBED is a south African HR consulting company established in 2000 who developed their own software and eventually expanded that software to include payroll and not just HR functionality. The have expanded there business to include large clients including the Johannesburg Stock Exchange. I was hired on a permanent basis in August as a full stack developer.  My duties include among others.",
+    "List": [
+      " Development of solution in line within these needs within the framework of the existing system.",
+      " Assisting with building APIs as part of larger effort of modernization of the system.",
+      " Report writing using SQL Server Reporting Service.",
+      " Automating and streamlining administrative and other activities through development of applets."
+    ],
+    "DateFromMonth": "Aug",
+    "DateFromYear": "2022",
+    "DateToMonth": "Present",
+    "DateToYear": ""
+  },
+  {
     "Employer": "FSCA",
     "Position": "Senior Programmer: HR and Payroll",
     "Description": "",
-    "Paragraph": "Was appointed by the FSCA (Financial Sector Conduct Authority) as a Senior Programmer for HR and Payroll on a 12-month Contract.  During my time at my previous company XFour solutions I was allocated to a project for the FSCA.  During this project I played a very central and pivotal role in making the implementation of the Sage ERP system a reality.  Months after the implementation of the project they had reached out to me.During my time there my duties were similar to those at XFour solutions outlined in the below section.  Some of the biggest achievements from my time there included.",
+    "Paragraph": "Was appointed by the FSCA (Financial Sector Conduct Authority) as a Senior Programmer for HR and Payroll on a 12-month Contract.  During my time at my previous company XFour solutions I was allocated to a project for the FSCA.  During this project I played a very central and pivotal role in making the implementation of the Sage ERP system a reality.  Months after the implementation of the project they had reached out to me. During my time there my duties were similar to those at XFour solutions outlined in the below section.  Some of the biggest achievements from my time there included.",
     "List": [
       " Resolving of the leave issues that the system had and by doing so ensuring helping ensure that the FSCA maintain their clean audit track record \n (the FSCA have gone many years with a clean audit and the leave was posing a risk to that)",
       " Being able to assist with establishing business processes that saw business return to using the expenses process after originally abandoning it due to lack of confidence.",
