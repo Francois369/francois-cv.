@@ -32,7 +32,7 @@ const Immigration = () => {
           permit in the interim. This method once again I believe should ensure
           a fast enough turnaround time for any potential employers.
           <br />
-          <br /> The immigrations office have provided some reference numbers
+          <br /> The immigrations office has provided some reference numbers
           below which they state we should use in our efforts to look for work.{" "}
           <br />
           a. Express Entry profile number: E003104119 <br />

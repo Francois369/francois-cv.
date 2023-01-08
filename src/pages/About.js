@@ -34,8 +34,8 @@ function About() {
         </p>
 
         <p className={classes["my-paragraph"]}>
-          The positions I am looking for would be Programmer Analyst,
-          Applications Programmer, Functional Consultant and Business analyst.
+          The positions I am intrested in would be Software Developer Programmer
+          Analyst, Applications Programmer and Business analyst.
         </p>
 
         <p className={classes["my-paragraph"]}>
