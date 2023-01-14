@@ -20,6 +20,7 @@ import TopNav from "./TopNav/TopNav";
 import References from "../../pages/Refrences";
 import Immigration from "../../pages/Immigration";
 import Skills from "../../pages/Skills";
+import Downloads from "../../pages/Downloads";
 
 function HomeNavigation() {
   const loggedInCtx = useContext(AuthContext);
@@ -66,6 +67,9 @@ function HomeNavigation() {
               </Route>
               <Route path="/" exact>
                 <Fragment></Fragment>
+              </Route>
+              <Route path="/Downloads">
+                <Downloads />
               </Route>
             </Switch>
           </Col>
