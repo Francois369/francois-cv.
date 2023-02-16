@@ -6,6 +6,5 @@
   { "Id": "Skills", "Description": "Skills " },
   { "Id": "Contact", "Description": "Contact" },
   { "Id": "References", "Description": "References" },
-  { "Id": "Immigration", "Description": "Immigration" },
-  { "Id": "Downloads", "Description": "Documents" }
+  { "Id": "Immigration", "Description": "Immigration" }
 ]

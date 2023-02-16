@@ -68,9 +68,9 @@ function HomeNavigation() {
               <Route path="/" exact>
                 <Fragment></Fragment>
               </Route>
-              <Route path="/Downloads">
+              {/* <Route path="/Downloads">
                 <Downloads />
-              </Route>
+              </Route> */}
             </Switch>
           </Col>
         </Row>

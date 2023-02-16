@@ -38,6 +38,7 @@ function Login(props) {
         <input
           //   type="text"
           id="password"
+          type="password"
           //   name="client"
           //   required
           //   minLength="4"
