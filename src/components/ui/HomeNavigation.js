@@ -59,9 +59,9 @@ function HomeNavigation() {
               <Route path="/References">
                 <References />
               </Route>
-              <Route path="/Immigration">
+              {/* <Route path="/Immigration">
                 <Immigration />
-              </Route>
+              </Route> */}
               <Route path="/Skills">
                 <Skills />
               </Route>

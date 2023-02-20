@@ -5,6 +5,5 @@
   { "Id": "Attributes", "Description": "Attributes and Achievements" },
   { "Id": "Skills", "Description": "Skills " },
   { "Id": "Contact", "Description": "Contact" },
-  { "Id": "References", "Description": "References" },
-  { "Id": "Immigration", "Description": "Immigration" }
+  { "Id": "References", "Description": "References" }
 ]

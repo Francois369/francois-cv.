@@ -34,13 +34,8 @@ function About() {
         </p>
 
         <p className={classes["my-paragraph"]}>
-          The positions I am intrested in would be Software Developer Programmer
-          Analyst, Applications Programmer and Business analyst.
-        </p>
-
-        <p className={classes["my-paragraph"]}>
-          I am a South African currently in the process of immigrating to
-          Canada. (Details of immigration progress in the immigration section).
+          The positions I am intrested in would be Software Developer,
+          Programmer Analyst, Applications Programmer and Business analyst.
         </p>
       </Card>
     </Fragment>
